@@ -1,3 +1,8 @@
+# Gabe Bartek
+# GPA Accolades program
+# This program takes user input for the amount of students and the last name, first name, and gpa 
+# of each student to tell whether they made it onto the honor roll and dean's list
+
 students = int(input('Enter number of students: ')) #input for user to enter the amount of times to loop the program for the number of students
 
 for i in range (students): # loop for previous input
@@ -14,7 +19,7 @@ for i in range (students): # loop for previous input
         elif gpa >= 3.25: # elif statement to check for honor roll
             print(Fname, Lname, 'made it onto the Honor Roll')
             break
-        
+
         else: # final else statement to tell user they made it on neither
             print(Fname, Lname, 'did not make it onto the Honor Roll or Dean\'s list ')
             break
