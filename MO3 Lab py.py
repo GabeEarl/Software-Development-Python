@@ -1,4 +1,4 @@
-class Vehicle: # parent class for all vehicles
+class Vehicle: # parent class for all vehicle
     def __init__(self, vehicle_type):
         self.vehicle_type = vehicle_type # vehicle type constructor
 
