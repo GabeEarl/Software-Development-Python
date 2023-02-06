@@ -1,0 +1,1 @@
+#this is to set up git on new computer
